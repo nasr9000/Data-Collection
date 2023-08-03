@@ -26,17 +26,26 @@ Use automated browsing to visit the Mars Temperature Data Site. Inspect the page
 
 Hint To identify which elements to scrape, you might want to inspect the page by using Chrome DevTools to discover whether the table contains usable classes.
 
-Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. However, use Beautiful Soup here to continue sharpening your web scraping skills.
+Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. 
+However, use Beautiful Soup here to continue sharpening your web scraping skills.
+
 Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
 
 
 id: the identification number of a single transmission from the Curiosity rover
+
 terrestrial_date: the date on Earth
+
 sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
+
 ls: the solar longitude
+
 month: the Martian month
+
 min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
+
 pressure: The atmospheric pressure at Curiosity's location
+
 Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
 
 Hint You can use the Pandas astype and to_datetime methods to accomplish this task.
