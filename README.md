@@ -32,19 +32,19 @@ However, use Beautiful Soup here to continue sharpening your web scraping skills
 Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
 
 
-id: the identification number of a single transmission from the Curiosity rover
+- id: the identification number of a single transmission from the Curiosity rover
 
-terrestrial_date: the date on Earth
+- terrestrial_date: the date on Earth
 
-sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
+- sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
 
-ls: the solar longitude
+- ls: the solar longitude
 
-month: the Martian month
+- month: the Martian month
 
-min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
+- min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
 
-pressure: The atmospheric pressure at Curiosity's location
+- pressure: The atmospheric pressure at Curiosity's location
 
 Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
 
