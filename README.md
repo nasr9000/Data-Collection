@@ -1,4 +1,5 @@
 # Data-Collection'
+![image](https://github.com/nasr9000/Data-Collection/assets/128746625/690a2eea-e576-4bc6-a9e5-97ff21e83b54)
 
 Part 1: Scrape Titles and Preview Text from Mars News
 
